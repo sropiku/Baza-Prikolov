@@ -1,1 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>😂 БАЗА ПРИКОЛОВ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<div class="site">
+  <header>
+    <h1>😂 БАЗА ПРИКОЛОВ</h1>
+    <p>Территория безумия и веселья</p>
+  </header>
+
+  <button onclick="showLeaderboard()">🏆 Общий рейтинг</button>
+
+  <nav>
+    <button onclick="showHome()">Главная</button>
+    <button onclick="showMemes()">Мемы</button>
+    <button onclick="showGames()">Игры</button>
+    <button onclick="showHall()">Доска позора</button>
+    <button onclick="showSecret()">Секретная комната 🔐</button>
+    <button onclick="showChallenges()">Задания 🎲</button>
+  </nav>
+
+  <main id="content">
+    <button onclick="setPlayerNickname()">Изменить ник 👤</button>
+    <h2>Добро пожаловать!</h2>
+    <p>Ты попал на самую странную базу друзей 😎</p>
+    <button onclick="randomJoke()">Получить прикол 🎲</button>
+    <p id="joke"></p>
+  </main>
+
+  <footer>Создано для друзей ❤️</footer>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-database-compat.js"></script>
+<script src="script.js"></script>
+
+</body>
+  </html>
