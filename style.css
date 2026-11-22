@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #111126;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.site {
+  max-width: 700px;
+  margin: auto;
+  padding: 15px;
+}
+
+header {
+  background: linear-gradient(135deg, #7928ca, #ff0080);
+  padding: 30px 10px;
+  border-radius: 20px;
+}
+
+header h1 {
+  font-size: 30px;
+}
+
+nav {
+  margin: 20px 0;
+}
+
+button {
+  background: #8b5cf6;
+  color: white;
+  border: none;
+  padding: 13px 18px;
+  margin: 5px;
+  border-radius: 12px;
+  font-size: 15px;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+main {
+  background: #20203d;
+  padding: 30px 15px;
+  border-radius: 20px;
+  min-height: 220px;
+}
